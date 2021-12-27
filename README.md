@@ -61,3 +61,49 @@ Site ID:        347523c3-58a3-42cb-87f0-0c5e39d54576
 ```netlify open```    Open the Netlify admin URL of your site
 
 
+## Tree
+Overview
+- Acronym
+- Full Title
+- Main purpose
+- Summary
+- Keywords
+- Model categories (multiple choices list)
+
+Ownership & licence
+- Ownership (unique choice from list)
+- Licence type (unique choice from list)
+- Licence details (appear based on licence type choice)
+
+
+## Workflow
+- admin display list of surveys by status (created, incomplete, completed)
+- admin creates a new survey (email, name, surname) and send the survey link by email
+- admin can modify a survey email, name surname infos
+- admin can resend survey link
+- admin can display a survey
+- admin can delete survey manually
+
+
+- modeller recieves an unique survey link by email
+- modeller is guided to complete the survey
+
+- each survey link has an expiration date (2 weeks by default)
+
+
+## Routes
+/                                        index - just a logo
+
+/survey/$survey-number/                  survey welcome screen
+/survey/$survey-number/overview          survey overview section forms
+/survey/$survey-number/licence           survey licence section forms
+/survey/$survey-number/*                 etc..
+
+
+/admin/                                  admin dashboard
+/admin/login
+/admin/
+
+
+
+
