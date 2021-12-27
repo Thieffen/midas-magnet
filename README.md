@@ -50,3 +50,14 @@ $ netlify deploy
 # production deployment
 $ netlify deploy --prod
 ```
+
+
+## Infos
+
+Admin URL:      https://app.netlify.com/sites/midas-magnet
+URL:            https://midas-magnet.netlify.app
+Site ID:        347523c3-58a3-42cb-87f0-0c5e39d54576
+```git push```        Push to your git repository to trigger new site builds
+```netlify open```    Open the Netlify admin URL of your site
+
+
